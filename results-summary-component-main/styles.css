@@ -1,0 +1,89 @@
+/* Import a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f5fc;
+}
+
+.result-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    padding: 20px;
+}
+
+.score-section {
+    background: linear-gradient(180deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.score-circle {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.score-circle h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.summary-section {
+    padding: 15px;
+    text-align: left;
+}
+
+.score-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.reaction { background: #ffe4e6; color: #e63946; }
+.memory { background: #fef9c3; color: #ffb703; }
+.verbal { background: #d3f8e2; color: #40916c; }
+.visual { background: #e0e7ff; color: #4361ee; }
+
+.continue-btn {
+    background: #111;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background: #333;
+}
